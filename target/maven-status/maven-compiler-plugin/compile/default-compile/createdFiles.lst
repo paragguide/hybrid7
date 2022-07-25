@@ -1,0 +1,6 @@
+utility\POIConfig.class
+utility\monitoringMail.class
+utility\screenshot.class
+utility\monitoringMail$SMTPAuthenticator.class
+utility\monitoringMail$1.class
+utility\TestConfig.class

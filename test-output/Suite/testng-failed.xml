@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ProviderTest(failed)">
+    <parameter name="reportname" value="Provider"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.nethorizonconsultancy.com/provider.aspx"/>
+    <parameter name="properties" value="Provider"/>
+    <classes>
+      <class name="testcases.LoginTestProvider">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="logintest" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="signin" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.LoginTestProvider -->
+    </classes>
+  </test> <!-- ProviderTest(failed) -->
+  <test name="SeekerTest(failed)">
+    <parameter name="reportname" value="Seeker"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.nethorizonconsultancy.com/Seeker.aspx"/>
+    <parameter name="properties" value="Seeker"/>
+    <classes>
+      <class name="testcases.LoginTestSeeker">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.LoginTestSeeker -->
+    </classes>
+  </test> <!-- SeekerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

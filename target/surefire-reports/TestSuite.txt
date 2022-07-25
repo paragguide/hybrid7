@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 92.253 s <<< FAILURE! - in TestSuite
+testcases.LoginTestProvider.afterSuite  Time elapsed: 3.578 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
+
+testcases.LoginTestSeeker.afterSuite  Time elapsed: 2.325 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+

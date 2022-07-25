@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90656" started-at="2022-07-25T19:45:45 IST" finished-at="2022-07-25T19:47:16 IST">
+    <groups>
+    </groups>
+    <test name="ProviderTest" duration-ms="60132" started-at="2022-07-25T19:45:45 IST" finished-at="2022-07-25T19:46:46 IST">
+      <class name="testcases.LoginTestProvider">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeSuite" is-config="true" duration-ms="359" started-at="2022-07-25T19:45:45 IST" finished-at="2022-07-25T19:45:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeTest" is-config="true" duration-ms="11587" started-at="2022-07-25T19:45:47 IST" finished-at="2022-07-25T19:45:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="signin" duration-ms="4687" started-at="2022-07-25T19:45:58 IST" data-provider="getsigninData" finished-at="2022-07-25T19:46:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aa@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterTest" is-config="true" duration-ms="767" started-at="2022-07-25T19:46:03 IST" finished-at="2022-07-25T19:46:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeTest" is-config="true" duration-ms="5539" started-at="2022-07-25T19:46:04 IST" finished-at="2022-07-25T19:46:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="signin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="signin" duration-ms="1" started-at="2022-07-25T19:46:09 IST" data-provider="getsigninData" finished-at="2022-07-25T19:46:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bb@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Signin exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Signin exception
+at testcases.LoginTestProvider.signin(LoginTestProvider.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterTest" is-config="true" duration-ms="688" started-at="2022-07-25T19:46:09 IST" finished-at="2022-07-25T19:46:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeTest" is-config="true" duration-ms="5956" started-at="2022-07-25T19:46:10 IST" finished-at="2022-07-25T19:46:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="signin" duration-ms="4306" started-at="2022-07-25T19:46:16 IST" data-provider="getsigninData" finished-at="2022-07-25T19:46:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterTest" is-config="true" duration-ms="954" started-at="2022-07-25T19:46:20 IST" finished-at="2022-07-25T19:46:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeTest" is-config="true" duration-ms="5659" started-at="2022-07-25T19:46:21 IST" finished-at="2022-07-25T19:46:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTestProvider@5e853265]" name="logintest" duration-ms="1" started-at="2022-07-25T19:46:27 IST" data-provider="getloginData" finished-at="2022-07-25T19:46:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saxena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping LoginTest exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping LoginTest exception
+at testcases.LoginTestProvider.logintest(LoginTestProvider.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterTest" is-config="true" duration-ms="683" started-at="2022-07-25T19:46:27 IST" finished-at="2022-07-25T19:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeTest" is-config="true" duration-ms="5426" started-at="2022-07-25T19:46:27 IST" finished-at="2022-07-25T19:46:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTestProvider@5e853265]" name="logintest" duration-ms="2706" started-at="2022-07-25T19:46:33 IST" data-provider="getloginData" finished-at="2022-07-25T19:46:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taneja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterTest" is-config="true" duration-ms="863" started-at="2022-07-25T19:46:36 IST" finished-at="2022-07-25T19:46:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="beforeTest" is-config="true" duration-ms="5510" started-at="2022-07-25T19:46:36 IST" finished-at="2022-07-25T19:46:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Provider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginTestProvider@5e853265]" name="logintest" duration-ms="2000" started-at="2022-07-25T19:46:42 IST" data-provider="getloginData" finished-at="2022-07-25T19:46:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterTest" is-config="true" duration-ms="847" started-at="2022-07-25T19:46:44 IST" finished-at="2022-07-25T19:46:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:testcases.LoginTestProvider@5e853265]" name="afterSuite" is-config="true" duration-ms="710" started-at="2022-07-25T19:46:45 IST" finished-at="2022-07-25T19:46:46 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/sun/mail/util/MailLogger]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+at javax.mail.Session.initLogger(Session.java:261)
+at javax.mail.Session.<init>(Session.java:245)
+at javax.mail.Session.getDefaultInstance(Session.java:356)
+at utility.monitoringMail.sendMail(monitoringMail.java:44)
+at core.Page.afterSuite(Page.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
+at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.LoginTestProvider -->
+    </test> <!-- ProviderTest -->
+    <test name="SeekerTest" duration-ms="30440" started-at="2022-07-25T19:46:46 IST" finished-at="2022-07-25T19:47:16 IST">
+      <class name="testcases.LoginTestSeeker">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="beforeSuite" is-config="true" duration-ms="4" started-at="2022-07-25T19:46:46 IST" finished-at="2022-07-25T19:46:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seeker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="beforeTest" is-config="true" duration-ms="5783" started-at="2022-07-25T19:46:46 IST" finished-at="2022-07-25T19:46:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Seeker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="test" duration-ms="1" started-at="2022-07-25T19:46:51 IST" data-provider="getData" finished-at="2022-07-25T19:46:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saxena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping LoginTest exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping LoginTest exception
+at testcases.LoginTestSeeker.test(LoginTestSeeker.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="afterTest" is-config="true" duration-ms="685" started-at="2022-07-25T19:46:51 IST" finished-at="2022-07-25T19:46:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="beforeTest" is-config="true" duration-ms="9962" started-at="2022-07-25T19:46:52 IST" finished-at="2022-07-25T19:47:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Seeker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="test" duration-ms="2291" started-at="2022-07-25T19:47:02 IST" data-provider="getData" finished-at="2022-07-25T19:47:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taneja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="afterTest" is-config="true" duration-ms="3688" started-at="2022-07-25T19:47:04 IST" finished-at="2022-07-25T19:47:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="beforeTest" is-config="true" duration-ms="5670" started-at="2022-07-25T19:47:08 IST" finished-at="2022-07-25T19:47:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Seeker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="test" duration-ms="1478" started-at="2022-07-25T19:47:14 IST" data-provider="getData" finished-at="2022-07-25T19:47:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="afterTest" is-config="true" duration-ms="746" started-at="2022-07-25T19:47:15 IST" finished-at="2022-07-25T19:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:testcases.LoginTestSeeker@1f57539]" name="afterSuite" is-config="true" duration-ms="99" started-at="2022-07-25T19:47:16 IST" finished-at="2022-07-25T19:47:16 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/sun/mail/util/MailLogger]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+at javax.mail.Session.initLogger(Session.java:261)
+at javax.mail.Session.<init>(Session.java:245)
+at javax.mail.Session.getDefaultInstance(Session.java:356)
+at utility.monitoringMail.sendMail(monitoringMail.java:44)
+at core.Page.afterSuite(Page.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.LoginTestSeeker -->
+    </test> <!-- SeekerTest -->
+  </suite> <!-- Suite -->
+</testng-results>

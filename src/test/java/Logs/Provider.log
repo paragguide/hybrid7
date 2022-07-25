@@ -1,0 +1,18 @@
+25/07/2022 19:46:36 Provider Providerlogs initialized
+25/07/2022 19:46:38 Provider chrome inint
+25/07/2022 19:46:40 Provider url open..http://www.nethorizonconsultancy.com/provider.aspx
+25/07/2022 19:46:42 Provider test method called ravi , kumar
+25/07/2022 19:46:42 Provider OR reposotry loaded
+25/07/2022 19:46:42 Provider data loaded from OR file
+25/07/2022 19:46:44 Provider data entered in web form from excel ravi , kumar status Your login attempt was not successful. Please try again.
+25/07/2022 19:46:44 Provider Not member
+25/07/2022 19:46:45 Provider driver quit
+25/07/2022 19:46:45 Provider report created..
+25/07/2022 19:46:45 Provider gmail server init..
+25/07/2022 19:46:45 Provider smtp.gmail.com
+25/07/2022 19:46:45 Provider roliguide@gmail.com
+25/07/2022 19:46:45 Provider [Ljava.lang.String;@4d8539de
+25/07/2022 19:46:45 Provider Test Report
+25/07/2022 19:46:45 Provider TestMessage
+25/07/2022 19:46:45 Provider C:\Users\Piyush Saxena\eclipse-workspace\Hybrid7\test-output\Provider.html
+25/07/2022 19:46:45 Provider Provider
